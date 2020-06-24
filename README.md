@@ -28,7 +28,7 @@ This is called when a new notification is generated.
 ### finish_notify()
 This is called every time an individual message has been shown for the requisite amount of time. The `if` clause checks to make sure there are no more recent notifications keeping the screen alive, and hides the screen if not.
 
-### clear_notify(trans, st ,at):
+### clear_notify(trans, st ,at)
 This is called after the screen has faded out completely, to empty the list of messages.
 
 ### stack_notify_appear
